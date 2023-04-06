@@ -1,0 +1,182 @@
+      html {
+        background: black;
+        font-family: roboto, Helvetica, sans-serif;
+      }
+
+      button {
+        width: 120px;
+        color: white;
+        font: bold 16px roboto;
+        background-color: seagreen;
+        margin-top: 25px;
+        padding: 6px;
+        border-radius: 10px;
+        border: 0;
+      }
+
+      button:hover {
+        color: seagreen;
+        background-color: white;
+      }
+
+      #green-button {
+        margin: 0;
+        border: 2px solid white;
+      }
+
+      label {
+        width: 160px;
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 48px;
+        font-weight: bolder;
+        margin-top: 0;
+      }
+
+      h2 {
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: bolder;
+        margin: 0;
+      }
+
+      h3 {
+        font-size: 24px;
+        align-content: center;
+        gap: 20px;
+        margin: 0;
+      }
+
+      .wrapper {
+        width: 80%;
+        margin: auto;
+        background: darkgreen;
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;        
+      }
+
+      .partial {
+        width: 70%;
+        min-width: 500px;        
+      }
+
+      header {
+        margin: auto;
+        padding: 20px 0 40px 0;
+        color: white;
+      }
+
+      header > nav {
+        align-content: center;
+        gap: 20px;
+        padding: 0; margin: 0;
+      }
+
+      .hero {
+        margin: auto;
+        align-items: flex-start;
+        gap: 80px;
+        color: white;
+      }
+
+      .hero > div {
+        color: white;
+        text-align: left;
+      }
+
+      .main {
+        width: 100%;
+        padding: 50px 0;
+        margin: 50px auto 0 auto;
+        flex-direction: column;
+        gap: 40px;
+        background-color: white;
+        color: #1F2937;
+      }
+
+      .main > div {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 40px;
+        margin: 0;
+      }
+
+      .imagebox {
+        object-fit: scale-down;
+        object-position: top center;
+        width: 140px;
+        height: 140px;
+        border: 3px solid seagreen;
+        border-radius: 15px;
+        margin: 0 auto 15px auto;
+      }
+
+      #imagebox-3 {
+        object-fit: scale-down;
+        object-position: center center;        
+      }
+
+      .imagebox:hover {
+        transform:scale(1.05);
+      }
+
+      aside {
+        background: #e5f2c4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+      }
+
+      .quote {
+        font: lighter italic 32px roboto;
+        text-align: left;
+        margin: auto;
+        padding-top: 70px;
+      }
+
+      .source {
+        text-align: right;
+        font: normal 24px roboto;
+        padding: 0 20px 30px 0 ;
+      }
+
+      .call {
+        background-color: white;
+        width: 100%;
+        height: 200px;
+        text-align: left;
+      }
+
+      .call > div {
+        margin: auto;
+        background-color: seagreen;
+        color: white;
+        border-radius: 10px;
+        width: 700px;
+        height: 80px;
+        padding: 0 20px;
+      }
+
+      .call-item > p {
+        margin: 5px;
+      }
+
+      .footer {
+        color: white;
+        margin: auto;
+      }
+
+      .footer > p {
+        padding-top: 10px;
+      }
